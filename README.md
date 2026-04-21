@@ -34,6 +34,10 @@ npx tsx ./src/core.ts
 bash ./scripts/build-bun.sh
 ```
 
+### 调试 Debugging
+
+推荐用这个: https://github.com/lenML/llmid
+
 ---
 
 ## 这是什么?
