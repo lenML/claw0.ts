@@ -23,7 +23,15 @@ cp -r ./workspace_template/ ./workspace/
 
 ```
 pnpm install
-npx tsx ./sessions/zh/s07_heartbeat_cron.ts
+npx tsx ./src/core.ts
+```
+
+### 打包
+
+如果你想要一个可执行文件，可以用 bun 打包
+
+```
+bash ./scripts/build-bun.sh
 ```
 
 ---
